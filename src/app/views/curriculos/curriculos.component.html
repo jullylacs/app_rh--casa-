@@ -1,0 +1,20 @@
+<section class="curriculos">
+  <!-- property do data binding *ngFor -->
+  <div *ngFor="let curriculo of curriculos">
+    <div class="card">
+      <img src="assets/img/curriculos/{{curriculo.foto}}" alt="Foto do candidato">
+      <div class="card-body">
+        <h5>Código do Currículo: {{curriculo.id}}</h5>
+        <h5>Nome: {{curriculo.nome}}</h5>
+        <p>Email: {{curriculo.email}}</p>
+        <p>Telefone: {{curriculo.telefone}}</p>
+        <p>Endereço: {{curriculo.endereco}}</p>
+        <p>Formação: {{curriculo.formacao}}</p>
+        <p>Experiência: {{curriculo.experiencia}}</p>
+        <p>Habilidades: {{curriculo.habilidades}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rodape"></div>

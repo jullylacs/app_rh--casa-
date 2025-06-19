@@ -1,0 +1,67 @@
+{
+  "vagas": [
+    {
+      "id": "1",
+      "nome": "Desenvolvedor FrontEnd Jr.",
+      "foto": "foto1.jpg",
+      "descricao": "Trabalhar com HTML, CSS e JS",
+      "salario": 4000
+    },
+    {
+      "id": "2",
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 7000
+    },
+    {
+      "id": "3",
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 10000
+    },
+    {
+      "id": 4,
+      "nome": "Engenheiro de Clound",
+      "foto": "foto4.jpg",
+      "descricao": "Arquitetura de nuvens e serviços online",
+      "salario": 8000
+    }
+  ],
+  "curriculos": [
+ {
+      "id": "1",
+      "nome": "Ana Silva",
+      "email": "ana.silva@email.com",
+      "telefone": "(11) 98765-4321",
+      "endereco": "Rua das Flores, 123, São Paulo - SP",
+      "formacao": "Graduação em Análise e Desenvolvimento de Sistemas",
+      "experiencia": "2 anos como Desenvolvedora FrontEnd na Empresa X",
+      "habilidades": "HTML, CSS, JavaScript, Angular",
+      "foto": "foto5.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Bruno Souza",
+      "email": "bruno.souza@email.com",
+      "telefone": "(21) 99876-5432",
+      "endereco": "Av. Central, 456, Rio de Janeiro - RJ",
+      "formacao": "Bacharelado em Ciência da Computação",
+      "experiencia": "3 anos como Desenvolvedor BackEnd na Empresa Y",
+      "habilidades": "Node.js, Express, MySQL, API REST",
+      "foto": "foto6.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Carla Pereira",
+      "email": "carla.pereira@email.com",
+      "telefone": "(31) 91234-5678",
+      "endereco": "Rua do Sol, 789, Belo Horizonte - MG",
+      "formacao": "Graduação em Engenharia de Software",
+      "experiencia": "5 anos como Desenvolvedora FullStack na Empresa Z",
+      "habilidades": "React, Node.js, MongoDB, Docker",
+      "foto": "foto7.jpg"
+    }
+  ]
+}

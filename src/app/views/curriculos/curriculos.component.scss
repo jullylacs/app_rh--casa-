@@ -1,0 +1,65 @@
+.curriculos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: #f5f7fa; /* fundo neutro e claro */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Card de Vaga */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Imagem da Vaga */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Corpo do Card */
+.card-body {
+  padding: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Títulos */
+.card-body h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0077ff;
+  margin: 0;
+}
+
+/* Parágrafos */
+.card-body p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+/* Rodapé */
+.rodape {
+  height: 10vh;
+}
